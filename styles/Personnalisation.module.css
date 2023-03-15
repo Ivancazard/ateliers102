@@ -1,0 +1,121 @@
+.container {
+  width: 100%;
+  height: auto;
+  font-family: "Montserrat";
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: relative;
+  margin: 15px;
+}
+.wrapper2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: relative;
+  margin: 15px;
+}
+.article1 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 30%;
+  padding: 1rem;
+  margin: 0 auto;
+}
+.article2 {
+  margin-top: 2rem;
+  width: 20%;
+  padding: 1rem;
+  margin: 0 auto;
+}
+.usb {
+  width: 400px;
+  height: auto;
+}
+.gourde {
+  width: 400px;
+  height: auto;
+  padding-top: 10%;
+}
+.plandetravail {
+  width: 500px;
+  height: auto;
+  padding-top: 25%;
+}
+.text {
+  text-align: center;
+  padding-top: 10em;
+  padding-left: 5em;
+  padding-right: 5em;
+  padding-bottom: 5em;
+  width: 50%;
+}
+.text p {
+  text-align: justify;
+  padding-bottom: 1em;
+  line-height: 1.4em;
+}
+.h2 {
+  text-transform: uppercase;
+}
+.card {
+  padding: 1rem 5rem;
+  border-radius: var(--border-radius);
+  background: rgba(var(--card-rgb), 0);
+  border: 1px solid rgba(var(--card-border-rgb), 0);
+  transition: background 200ms, border 200ms;
+}
+.button {
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #f5483c;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0.1, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+.button:hover {
+  background-color: #1d2e81;
+  box-shadow: 0px 15px 20px rgba(187, 34, 34, 0.275);
+  color: #ffffff;
+  transform: translateY(-7px);
+}
+
+.button:active {
+  transform: translateY(-1px);
+}
+/* .btn {
+  display: inline-block;
+  padding: 0.5em 1.5em;
+  border: solid 1px red;
+  transition: all 0.3s ease-in;
+}
+.btn:hover,
+.btn:focus {
+  transform: translate(0px, -2px);
+  -webkit-box-shadow: 0px 10px 7px -9px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 10px 7px -9px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 10px 7px -9px rgba(0, 0, 0, 0.75);
+  transition: all 0.3s ease-out;
+}
+.textbouton {
+  color: red;
+} */
+/* @media (min-width: 700px) {
+  .text {
+    margin: 2em 2em auto;
+  }
+}
+@media(min-width: 701px){
+    .wrapper{
+      display: flex;
+    }} */

@@ -1,0 +1,178 @@
+.container {
+  height: 92vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.background {
+  position: absolute;
+  color: rgb(186, 205, 211);
+  opacity: 0.3;
+  font-size: 240px;
+  z-index: -1;
+}
+.card {
+  margin: 30px auto;
+  width: 300px;
+  height: 500px;
+  border-radius: 40px;
+  box-shadow: 5px 5px 30px 7px rgba(246, 0, 0, 0.199),
+    -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.card .card_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+}
+
+.card .card_image img {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+  object-fit: cover;
+}
+
+.card .card_title {
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  font-family: "Montserrat";
+  font-weight: sans-serif;
+  font-size: 30px;
+  margin-top: -80px;
+  height: 40px;
+  color: white;
+}
+
+.card:hover {
+  transform: scale(0.9, 0.9);
+  box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25),
+    -5px -5px 30px 15px rgb(255, 0, 0);
+}
+
+.card2 {
+  margin: 30px auto;
+  width: 300px;
+  height: 500px;
+  border-radius: 40px;
+  box-shadow: 5px 5px 30px 7px rgba(56, 114, 239, 0.253),
+    -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.card2 .card_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+}
+
+.card2 .card_image img {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+  object-fit: cover;
+}
+
+.card2 .card_title {
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  font-family: "Montserrat";
+  font-weight: sans-serif;
+  font-size: 30px;
+  margin-top: -80px;
+  height: 40px;
+  color: white;
+}
+
+.card2:hover {
+  transform: scale(0.9, 0.9);
+  box-shadow: 5px 5px 30px 15px rgb(28, 64, 225),
+    -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+}
+
+.card3 {
+  margin: 30px auto;
+  width: 300px;
+  height: 500px;
+  border-radius: 40px;
+  box-shadow: 5px 5px 30px 7px rgba(239, 247, 15, 0.152),
+    -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.card3 .card_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+}
+
+.card3 .card_image img {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+  object-fit: cover;
+}
+
+.card3 .card_title {
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  font-family: "Montserrat";
+  font-weight: sans-serif;
+  font-size: 30px;
+  margin-top: -80px;
+  height: 40px;
+  color: white;
+}
+
+.card3:hover {
+  transform: scale(0.9, 0.9);
+  box-shadow: 5px 5px 30px 15px rgb(255, 247, 0),
+    -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+}
+
+.card4 {
+  margin: 30px auto;
+  width: 300px;
+  height: 500px;
+  border-radius: 40px;
+  box-shadow: 5px 5px 30px 7px rgba(71, 10, 255, 0.14),
+    -5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.card4 .card_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+}
+
+.card4 .card_image img {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+  object-fit: cover;
+}
+
+.card4 .card_title {
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  font-family: "Montserrat";
+  font-weight: sans-serif;
+  font-size: 30px;
+  margin-top: -80px;
+  height: 40px;
+  color: white;
+}
+
+.card4:hover {
+  transform: scale(0.9, 0.9);
+  box-shadow: 5px 5px 30px 15px rgb(6, 1, 102),
+    -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+}
