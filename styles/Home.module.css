@@ -1,4 +1,7 @@
 .container {
+  position: fixed;
+  top: 0%;
+  left: 0%;
   height: 100%;
   width: 100%;
   background-image: url(../public/Background_test.gif);
@@ -6,21 +9,19 @@
   background-repeat: no-repeat;
   background-position: center center;
 }
-
 .header {
-  position: relative;
-  display: flex;
-  top: 0%;
-  left: 0%;
-  padding-top: 2rem;
-  margin-left: 1rem;
+  position: fixed;
+  display: contents;
 }
-.social {
+.content_social {
   position: relative;
   display: flex;
   flex-direction: row;
-  width: 100%;
+  width: 0%;
   text-align: center;
+  top: 2.4rem;
+  left: 0%;
+  margin-left: 1rem;
 }
 .Facebook {
   border-radius: 50%;
@@ -84,7 +85,7 @@
   height: 2rem;
   padding-top: 10%;
 }
-.container2 {
+.content2 {
   display: flex;
   position: absolute;
   top: 2.5rem;
@@ -227,17 +228,6 @@
   padding-top: 3rem;
 }
 
-.description {
-  display: inherit;
-  justify-content: inherit;
-  align-items: inherit;
-  font-size: 0.85rem;
-  max-width: var(--max-width);
-  width: 100%;
-  z-index: 2;
-  font-family: var(--font-mono);
-}
-
 .code {
   font-weight: 700;
   font-family: var(--font-mono);
@@ -276,23 +266,24 @@
   line-height: 1.5;
   max-width: 30ch;
 }
-.content {
+/* image ateliers  */
+.content_logo {
   display: flex;
   position: relative;
 }
-.content img {
+.content_logo img {
   position: absolute;
   color: #ff1515;
   font-size: 8em;
   transform: translate(-50%, 0%);
 }
 
-.content img:nth-child(1) {
+.content_logo img:nth-child(1) {
   color: transparent;
   -webkit-text-stroke: 2px #ff1515;
 }
 
-.content img:nth-child(2) {
+.content_logo img:nth-child(2) {
   color: #ff1515;
   animation: animate 4s ease-in-out infinite;
 }
@@ -352,17 +343,16 @@
 /* Mobile */
 @media (max-width: 700px) {
   .container {
-    height: 100%;
-    width: auto;
+    height: auto;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
   }
-
-  .container2 {
+  .content2 {
     display: block;
     width: 100%;
   }
-  .social {
+  .content_social {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -375,12 +365,9 @@
 
   .input {
     top: 0%;
-    left: 30%;
+    left: 42%;
   }
 
-  .main {
-    height: 100%;
-  }
   .soustitre {
     text-align: center;
   }

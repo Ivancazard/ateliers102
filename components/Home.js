@@ -16,48 +16,46 @@ import { faHands, faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 function Home() {
   return (
     <div className={styles.container}>
-      <header>
-        <div className={styles.header}>
-          <div className={styles.social}>
-            <div>
-              <a
-                href="https://www.facebook.com/ateliers102"
-                className={styles.Facebook}
-              >
-                <img
-                  className={styles.logoFacebook}
-                  src="Facebook-blanc.png"
-                  alt="Facebook-blanc"
-                />
-              </a>
-            </div>
-            <div>
-              <a
-                href="https://www.instagram.com/ateliers102/"
-                className={styles.Instagram}
-              >
-                <img
-                  className={styles.logoInstagram}
-                  src="Instagram-blanc.png"
-                  alt="Instagram-blanc"
-                />
-              </a>
-            </div>
-            <div>
-              <a
-                href="https://www.linkedin.com/company/ateliers-102/"
-                className={styles.Linkedin}
-              >
-                <img
-                  className={styles.logoLinkedin}
-                  src="Linkedin.png"
-                  alt="Linkedin-blanc"
-                />
-              </a>
-            </div>
+      <div className={styles.header}>
+        <div className={styles.content_social}>
+          <div>
+            <a
+              href="https://www.facebook.com/ateliers102"
+              className={styles.Facebook}
+            >
+              <img
+                className={styles.logoFacebook}
+                src="Facebook-blanc.png"
+                alt="Facebook-blanc"
+              />
+            </a>
+          </div>
+          <div>
+            <a
+              href="https://www.instagram.com/ateliers102/"
+              className={styles.Instagram}
+            >
+              <img
+                className={styles.logoInstagram}
+                src="Instagram-blanc.png"
+                alt="Instagram-blanc"
+              />
+            </a>
+          </div>
+          <div>
+            <a
+              href="https://www.linkedin.com/company/ateliers-102/"
+              className={styles.Linkedin}
+            >
+              <img
+                className={styles.logoLinkedin}
+                src="Linkedin.png"
+                alt="Linkedin-blanc"
+              />
+            </a>
           </div>
         </div>
-        <div className={styles.container2}>
+        <div className={styles.content2}>
           <input
             className={styles.input}
             type="text"
@@ -65,12 +63,12 @@ function Home() {
           />
           <div className={styles.search}></div>
         </div>
-      </header>
+      </div>
 
       <main className={styles.main}>
         <p className={styles.soustitre}>Bienvenue sur l'agence adaptée</p>
 
-        <div className={styles.content}>
+        <div className={styles.content_logo}>
           <img
             className={styles.logo}
             src="logo_contour.png"

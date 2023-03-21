@@ -30,7 +30,6 @@
   text-align: center;
 }
 .footer_content_column {
-  flex: 1 1 150px;
   box-sizing: border-box;
   float: left;
   padding-left: 50px;
