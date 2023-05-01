@@ -1,13 +1,11 @@
 import Production from "../components/Production";
-import MenuParticulier from "../components/MenuParticulier";
-import Footer from "../components/Footer";
+import MenuPro from "../components/MenuPro";
 
 function ProductionPage() {
   return (
     <div>
-      <MenuParticulier />
+      <MenuPro />
       <Production />
-      <Footer />
     </div>
   );
 }

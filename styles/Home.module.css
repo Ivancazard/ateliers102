@@ -4,7 +4,7 @@
   left: 0%;
   height: 100%;
   width: 100%;
-  background-image: url(../public/Background_test.gif);
+  background-image: url(../public/fond\ site\ blanc\ at102.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -13,7 +13,16 @@
   position: fixed;
   display: contents;
 }
-.content_social {
+.logomenu {
+  display: block;
+  position: relative;
+  height: 60px;
+  width: auto;
+  max-width: 100%;
+  margin: 1.5rem;
+  cursor: url(../public/stylo-plume.png), default;
+}
+/* .content_social {
   position: relative;
   display: flex;
   flex-direction: row;
@@ -84,8 +93,8 @@
 .logoLinkedin {
   height: 2rem;
   padding-top: 10%;
-}
-.content2 {
+} */
+/* .content2 {
   display: flex;
   position: absolute;
   top: 2.5rem;
@@ -111,9 +120,9 @@
 .search:hover {
   cursor: pointer;
   background-color: gold;
-}
+} */
 /* loupe manche */
-.search::before {
+/* .search::before {
   content: "";
   position: absolute;
   margin: auto;
@@ -126,10 +135,10 @@
   background: white;
   transform: rotate(45deg);
   transition: all 0.5s;
-}
+} */
 
 /* loupe rond */
-.search::after {
+/* .search::after {
   content: "";
   position: absolute;
   margin: auto;
@@ -194,9 +203,9 @@
   background: white;
   border-radius: 0%;
   transform: rotate(-45deg);
-}
+} */
 /* transformation à travailler sur croix */
-.input::before {
+/* .input::before {
   top: 5%;
   left: 80%;
   width: 25px;
@@ -210,13 +219,13 @@
   background: white;
   border-radius: 0%;
   transform: rotate(-45deg);
-}
+} */
 /* texte dans input */
-.input::placeholder {
+/* .input::placeholder {
   color: white;
   opacity: 0.5;
   font-weight: bolder;
-}
+} */
 
 .main {
   display: flex;
@@ -224,21 +233,36 @@
   justify-content: space-between;
   align-items: center;
   min-height: 20vh;
-  margin-top: 1rem;
-  padding-top: 3rem;
 }
 
 .code {
   font-weight: 700;
   font-family: var(--font-mono);
 }
+.soustitre {
+  color: #ff5642;
+  font-size: 2.4vw;
+  font-family: Montserrat;
+  -webkit-text-stroke: 2px #ff5642;
+  text-transform: uppercase;
+  margin-top: 7rem;
+  margin-bottom: 1rem;
+}
+.texte_choix {
+  margin-top: 6%;
+  color: #ff5642;
+  font-size: 1.2rem;
+  opacity: 50%;
+  -webkit-text-stroke: 1px #ff5642;
+  font-family: Poppins;
+}
 /* grid 2 boutons */
 .grid {
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(2, minmax(25%, auto));
   /* width: var(--max-width); */
   max-width: 100%;
-  margin-top: 10%;
+  margin: auto;
 }
 
 .card {
@@ -270,24 +294,23 @@
 .content_logo {
   display: flex;
   position: relative;
+  margin-top: 5%;
 }
+
 .content_logo img {
   position: absolute;
-  color: #ff1515;
   font-size: 8em;
   transform: translate(-50%, 0%);
 }
 
 .content_logo img:nth-child(1) {
   color: transparent;
-  -webkit-text-stroke: 2px #ff1515;
+  -webkit-text-stroke: 2px #ff5642;
 }
-
 .content_logo img:nth-child(2) {
-  color: #ff1515;
+  color: #ff5642;
   animation: animate 4s ease-in-out infinite;
 }
-
 @keyframes animate {
   0%,
   100% {
@@ -339,11 +362,72 @@
     transform: none;
   }
 }
-
+.footer {
+  background-color: #ff5642;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  position: absolute;
+}
+.footer_content {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: auto;
+  max-width: 100%;
+}
+.footer_content_column {
+  box-sizing: border-box;
+  float: left;
+  width: 100%;
+}
+.séparateur {
+  border-left: 1px solid white;
+  width: 1px;
+  height: 20px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.footer_menu {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+.footer_menu_name {
+  text-decoration: underline;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  line-height: 18px;
+  margin-bottom: 0;
+  margin-top: 0;
+  cursor: pointer;
+}
+.content_social {
+  display: flex;
+  flex-direction: row;
+  left: 0%;
+  margin-left: 5rem;
+}
+.logoFacebook {
+  height: 1.5rem;
+  margin: 0.2rem;
+}
+.logoInstagram {
+  height: 1.5rem;
+  margin: 0.2rem;
+}
+.logoLinkedin {
+  height: 1.5rem;
+  margin: 0.2rem;
+}
 /* Mobile */
 @media (max-width: 700px) {
   .container {
-    height: auto;
+    height: 100%;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -351,12 +435,6 @@
   .content2 {
     display: block;
     width: 100%;
-  }
-  .content_social {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    width: 0%;
   }
   .search {
     top: 0%;
@@ -370,6 +448,7 @@
 
   .soustitre {
     text-align: center;
+    font-size: 7vw;
   }
 
   .logo {
@@ -381,41 +460,34 @@
   .grid {
     display: grid;
     grid-template-columns: 1fr;
-    margin-top: 8rem;
-    margin-bottom: 3rem;
+    margin: auto;
   }
 
   .card {
     padding: 1rem;
-    width: 300px;
+    margin: auto;
   }
-  .button3 {
-    font-size: medium;
+  .button1 {
+    width: 250px;
+  }
+  .button2 {
+    width: 250px;
   }
   .card h2 {
     margin-bottom: 0.5rem;
   }
-
-  .Facebook {
-    height: 3rem;
-    width: 3rem;
-    margin-top: 0.3rem;
+  .content_social {
+    display: flex;
+    flex-direction: row;
+    left: 0%;
+    margin-left: 5rem;
   }
   .logoFacebook {
     margin: 0.3rem;
   }
-  .Instagram {
-    height: 3rem;
-    width: 3rem;
-    margin-top: 0.3rem;
-  }
+
   .logoInstagram {
     margin: 0.3rem;
-  }
-  .Linkedin {
-    height: 3rem;
-    width: 3rem;
-    margin-top: 0.3rem;
   }
   .logoLinkedin {
     margin: 0.3rem;
@@ -429,27 +501,37 @@
 
 /* Tablet and Smaller Desktop */
 @media (min-width: 701px) and (max-width: 1120px) {
-  .grid {
-    grid-template-columns: repeat(2, 50%);
-    margin-top: 8rem;
-  }
   .container {
     height: 100%;
-    width: auto;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
   }
-  .search {
+  .content_logo {
+    margin-top: 30%;
+  }
+  .grid {
+    grid-template-columns: repeat(2, 50%);
+    margin: auto;
+  }
+  /* .search {
     top: 0%;
     left: 90%;
-  }
+  } */
   .main {
-    height: 100vh;
+    height: 80vh;
   }
-  .input {
+  .texte_choix {
+    margin-top: 10%;
+  }
+  .button1 {
+    margin-bottom: 80%;
+  }
+
+  /* .input {
     top: 0%;
     left: 68%;
-  }
+  } */
 }
 
 @keyframes rotate {
@@ -471,34 +553,29 @@
   align-items: center;
 }
 
-.soustitre {
-  color: #f5483c;
-  font-size: 2.5rem;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-style: italic;
-  margin-top: 5rem;
-  margin-bottom: 1rem;
-}
-
 .button1 {
+  background-color: #f5483c;
   padding: 1.3em 3em;
-  font-size: 12px;
+  font-size: 11px;
+  font-family: Poppins;
+  -webkit-text-stroke: 2px white;
   text-transform: uppercase;
   letter-spacing: 2.5px;
-  font-weight: 500;
-  color: #f5483c;
+  color: white;
   border: none;
   border-radius: 45px;
   box-shadow: 0px 8px 15px rgba(0, 0, 0.1, 0.1);
   transition: all 0.3s ease 0s;
   cursor: pointer;
   outline: none;
+  width: 220px;
 }
 
 .button1:hover {
-  background-color: #f5483c;
+  background-color: white;
+  -webkit-text-stroke: 2px #ff5642;
   box-shadow: 0px 15px 20px rgba(187, 34, 34, 0.275);
-  color: #f6f6f6;
+  color: #ff5642;
   transform: translateY(-7px);
 }
 
@@ -507,59 +584,36 @@
 }
 
 .button2 {
+  background-color: #f5483c;
   padding: 1.3em 3em;
-  font-size: 12px;
+  font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 2.5px;
-  font-weight: 500;
-  color: #f5483c;
+  font-family: Poppins;
+  -webkit-text-stroke: 2px #ffffff;
+  color: white;
   border: none;
   border-radius: 45px;
   box-shadow: 0px 8px 15px rgba(0, 0, 0.1, 0.1);
   transition: all 0.3s ease 0s;
   cursor: pointer;
   outline: none;
+  width: 220px;
 }
 
 .button2:hover {
-  background-color: #1d2e81;
+  background-color: white;
+  -webkit-text-stroke: 2px #ff5642;
   box-shadow: 0px 15px 20px rgba(187, 34, 34, 0.275);
-  color: #ffffff;
+  color: #f5483c;
   transform: translateY(-7px);
 }
 
 .button2:active {
   transform: translateY(-1px);
 }
-.button3 {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 5px;
-  font-family: "Montserrat", sans-serif;
-  overflow: hidden;
-  border: none;
-  color: #303dc8;
-  margin-top: 3rem;
-}
-.button3:hover {
-  color: #ff1515;
-}
-@keyframes scaleUp {
-  0% {
-    transform: scale(1);
-  }
 
-  50% {
-    transform: scale(0.95);
-  }
-
-  100% {
-    transform: scale(1);
-  }
-}
-.card_contact {
+/* .card_contact {
   width: 500px;
   height: 300px;
   border-radius: 40px;
@@ -606,4 +660,4 @@
   height: 5rem;
   width: 5rem;
   cursor: pointer;
-}
+} */

@@ -19,7 +19,7 @@ function MenuParticulier() {
         id="menu-icon"
         name="menu-icon"
       />
-      <label for="menu-icon"></label>
+      <label className={styles.menuicon} for="menu-icon"></label>
       <nav className={styles.nav}>
         <ul className={styles.ul}>
           <div className={styles.content_info}>

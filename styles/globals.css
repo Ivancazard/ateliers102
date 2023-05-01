@@ -1,3 +1,23 @@
+@font-face {
+  font-family: Poppins;
+  src: url("DMSans-Regular.ttf");
+}
+@font-face {
+  font-family: NewakeFont-Demo;
+  src: url("NewakeFont-Demo.ttf");
+}
+@font-face {
+  font-family: Poppins-Bold;
+  src: url("DMSans-Bold.ttf");
+}
+@font-face {
+  font-family: Mellissa;
+  src: url("mellissa.ttf");
+}
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url("Poppins-SemiBold.ttf");
+}
 body {
   padding: 0;
   margin: 0;

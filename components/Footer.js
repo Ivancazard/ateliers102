@@ -5,80 +5,105 @@ function FooterPage() {
     <div className={styles.main}>
       <div className={styles.footer_content}>
         <div className={styles.footer_content_column}>
-          <div className={styles.footer_logo}>
-            <a className={styles.footer_logo_link} href="#">
-              <img
-                className={styles.logo}
-                src="logo-blanc.png"
-                alt="logo-blanc"
-              />
-            </a>
+          <div className={styles.footer_menu}>
+            <h2 className={styles.footer_menu_name}>Nos Ateliers</h2>
+            <p className={styles.footer_texte}> Notre atelier de création</p>
+            <p className={styles.footer_texte}> Notre atelier de production</p>
+            <p className={styles.footer_texte}>
+              {" "}
+              Notre atelier de personnalisation
+            </p>
           </div>
         </div>
         <div className={styles.footer_content_column}>
           <div className={styles.footer_menu}>
-            <h2 className={styles.footer_menu_name}>Get start</h2>
-            <ul id="menu-get-start" className={styles.menu_list}>
-              <li className={styles.menu_item}>
-                <a href="#"> start</a>
-              </li>
-              <li className={styles.menu_item}>
-                <a href="#"> document</a>
-              </li>
-              <li className={styles.menu_item}>
-                <a href="#"> installation</a>
-              </li>
-            </ul>
+            <h2 className={styles.footer_menu_name}>
+              Notre structure et ses valeurs
+            </h2>
+            <p className={styles.footer_texte}> Notre entreprise adaptée</p>
+            <p className={styles.footer_texte}> Notre équipe</p>
           </div>
         </div>
         <div className={styles.footer_content_column}>
           <div className={styles.footer_menu}>
-            <h2 className={styles.footer_menu_name}>Compagny</h2>
-            <ul id="menu-get-start" className={styles.menu_list}>
-              <li className={styles.menu_item}>
-                <a href="#"> Contact</a>
-              </li>
-              <li className={styles.menu_item}>
-                <a href="#"> News</a>
-              </li>
-              <li className={styles.menu_item}>
-                <a href="#"> Legal</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div className={styles.footer_content_column}>
-          <div className={styles.footer_menu}>
-            <h2 className={styles.footer_menu_name}>Quick links</h2>
-            <ul id="menu-get-start" className={styles.menu_list}>
-              <li className={styles.menu_item}>
-                <a href="#"> sécurity</a>
-              </li>
-              <li className={styles.menu_item}>
-                <a href="#"> blog</a>
-              </li>
-              <li className={styles.menu_item}>
-                <a href="#"> customme</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div className={styles.footer_content_column}>
-          <div className={styles.footer_menu}>
-            <h2 className={styles.footer_menu_name}>Let's chat</h2>
-            <p className={styles.footer_texte}> Have a support question?</p>
-            <a className={styles.footer_button}> Get in touch </a>
-          </div>
-        </div>
-        <div className={styles.footer_content_column}>
-          <div className={styles.footer_menu}>
-            <h2 className={styles.footer_menu_name}>Nous contactez</h2>
-            <p className={styles.footer_tel}> 04 90 56 30 31</p>
+            <h2 className={styles.footer_menu_name}>Nos informations</h2>
+            <p className={styles.footer_texte}>Contactez-nous</p>
+            <p className={styles.footer_texte}>Suivez nous sur les réseaux</p>
+            <div className={styles.content_social}>
+              <div>
+                <a
+                  href="https://www.facebook.com/ateliers102"
+                  className={styles.Facebook}
+                >
+                  <img
+                    className={styles.logoFacebook}
+                    src="Facebook-blanc.png"
+                    alt="Facebook-blanc"
+                  />
+                </a>
+              </div>
+              <div>
+                <a
+                  href="https://www.instagram.com/ateliers102/"
+                  className={styles.Instagram}
+                >
+                  <img
+                    className={styles.logoInstagram}
+                    src="Instagram-blanc.png"
+                    alt="Instagram-blanc"
+                  />
+                </a>
+              </div>
+              <div>
+                <a
+                  href="https://www.linkedin.com/company/ateliers-102/"
+                  className={styles.Linkedin}
+                >
+                  <img
+                    className={styles.logoLinkedin}
+                    src="Pinterest-blanc.png"
+                    alt="Pinterest-blanc"
+                  />
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <div className={styles.footer_content}>
-        <p className={styles.footer_texte2}> by Ateliers 102 ® . 2023</p>
+      <div className={styles.footer_content2}>
+        <div className={styles.footer_content_column2}>
+          <div className={styles.footer_menu2}>
+            <h2 href="" className={styles.footer_menu_name2}>
+              Mentions légales
+            </h2>
+            <div className={styles.séparateur}></div>
+            <h2 href="" className={styles.footer_menu_name2}>
+              CGU
+            </h2>
+            <div className={styles.séparateur}></div>
+            <h2 href="" className={styles.footer_menu_name2}>
+              CGV
+            </h2>
+          </div>
+          <div className={styles.footer_menu2}>
+            <h2 href="" className={styles.footer_menu_name3}>
+              Rgaa4
+            </h2>
+          </div>
+        </div>
+        <div className={styles.footer_content_column2}>
+          <div className={styles.footer_content}>
+            <p className={styles.footer_texte2}>
+              {" "}
+              Une création encrée Atelier 102
+            </p>
+          </div>
+        </div>
+        <div className={styles.footer_content_column2}>
+          <div className={styles.footer_content}>
+            <p className={styles.footer_texte2}> </p>
+          </div>
+        </div>
       </div>
     </div>
   );
