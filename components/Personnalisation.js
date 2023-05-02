@@ -215,44 +215,46 @@ function Personnalisation() {
               </p>
             </div>
           </div>
-          <div className={styles.content_section9}>
-            <div className={styles.gras_texte10}>Suivez notre actualité</div>
-            <div className={styles.content_social}>
-              <div>
-                <a
-                  href="https://www.facebook.com/ateliers102"
-                  className={styles.Facebook}
-                >
-                  <img
-                    className={styles.logoFacebook}
-                    src="Facebook-rouge.png"
-                    alt="Facebook"
-                  />
-                </a>
-              </div>
-              <div>
-                <a
-                  href="https://www.instagram.com/ateliers102/"
-                  className={styles.Instagram}
-                >
-                  <img
-                    className={styles.logoInstagram}
-                    src="Instagram-rouge.png"
-                    alt="Instagram"
-                  />
-                </a>
-              </div>
-              <div>
-                <a
-                  href="https://www.linkedin.com/company/ateliers-102/"
-                  className={styles.Linkedin}
-                >
-                  <img
-                    className={styles.logoLinkedin}
-                    src="Pinterest-rouge.png"
-                    alt="Pinterest"
-                  />
-                </a>
+          <div className={styles.section10}>
+            <div className={styles.content_section10}>
+              <div className={styles.gras_texte10}>Suivez notre actualité</div>
+              <div className={styles.content_social}>
+                <div>
+                  <a
+                    href="https://www.facebook.com/ateliers102"
+                    className={styles.Facebook}
+                  >
+                    <img
+                      className={styles.logoFacebook}
+                      src="Facebook-rouge.png"
+                      alt="Facebook"
+                    />
+                  </a>
+                </div>
+                <div>
+                  <a
+                    href="https://www.instagram.com/ateliers102/"
+                    className={styles.Instagram}
+                  >
+                    <img
+                      className={styles.logoInstagram}
+                      src="Instagram-rouge.png"
+                      alt="Instagram"
+                    />
+                  </a>
+                </div>
+                <div>
+                  <a
+                    href="https://www.linkedin.com/company/ateliers-102/"
+                    className={styles.Linkedin}
+                  >
+                    <img
+                      className={styles.logoLinkedin}
+                      src="Pinterest-rouge.png"
+                      alt="Pinterest"
+                    />
+                  </a>
+                </div>
               </div>
             </div>
           </div>

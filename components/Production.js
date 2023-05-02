@@ -327,7 +327,7 @@ function Production() {
         </div>
         <div className={styles.section9}>
           <div className={styles.content_section9}>
-            <div className={styles.gras_texte6}>
+            <div className={styles.gras_texte6_bis}>
               Envie de nous confier votre projet?
             </div>
             <div className={styles.card}>

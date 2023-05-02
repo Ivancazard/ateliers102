@@ -436,6 +436,16 @@
   text-align: center;
   padding-bottom: 2%;
 }
+.gras_texte6_bis {
+  padding-top: 10%;
+  font-family: Poppins-Bold;
+  color: #f5483c;
+  font-size: 3vw;
+  text-transform: uppercase;
+  -webkit-text-stroke: 2px #f5483c;
+  text-align: center;
+  padding-bottom: 10%;
+}
 .section8 {
   height: 100vh;
   width: 100%;
@@ -689,7 +699,7 @@
   }
   .header {
     width: 100%;
-    padding-top: 30vh;
+    padding-top: 25vh;
   }
   .image_header1 {
     height: 200px;
@@ -697,14 +707,19 @@
   .image_header2 {
     height: 200px;
   }
+  .double_ecriture {
+    margin-left: -2vh;
+  }
   .soustitre {
     font-size: 10vw;
     font-family: Poppins;
+    margin-left: 2vh;
   }
   .soustitre2 {
     font-family: Poppins;
     font-size: 10vw;
-    margin-top: -28%;
+    margin-top: -26%;
+    margin-left: 3vh;
   }
   .soustitre3 {
     margin-top: -4vw;
@@ -715,6 +730,10 @@
   }
   .texte_gras {
     font-size: 5.2vw;
+    -webkit-text-stroke: 1px;
+  }
+  .content_fleche {
+    margin-bottom: 20%;
   }
   .section2_slogan {
     width: 100%;
@@ -737,7 +756,7 @@
   }
   /* section2 */
   .titre2 {
-    font-size: 25vw;
+    font-size: 23vw;
   }
   .soustitre_section2 {
     font-size: 10vw;
@@ -750,6 +769,7 @@
   }
   .texte_gras_section2 {
     font-size: 5vw;
+    -webkit-text-stroke: 1px;
   }
   .content3 {
     display: flex;
@@ -764,6 +784,12 @@
   }
   .texte_gras_section3 {
     font-size: 5vw;
+  }
+  .content_section4 {
+    padding-top: 20%;
+  }
+  .card_section4 {
+    padding-top: 30%;
   }
   .soustitre_section4 {
     padding-top: 8%;
@@ -783,6 +809,9 @@
     flex-shrink: 0;
     scroll-snap-align: start;
   }
+  .content_section5 {
+    padding-top: 20%;
+  }
   .titre5 {
     font-size: 14vw;
   }
@@ -791,11 +820,56 @@
     font-size: 8vw;
     margin-top: 5%;
   }
+  .content_section9 {
+    padding-top: 40%;
+  }
   .gras_texte9 {
     font-family: Poppins;
     font-size: 5vw;
     margin-top: 80%;
     margin-bottom: 10%;
+    -webkit-text-stroke: 1px;
+  }
+  .texte9_ateliers {
+    font-size: 4.5vw;
+  }
+  .section6 {
+    padding-top: 20%;
+  }
+  .gras_texte6 {
+    font-family: Poppins;
+    font-size: 8vw;
+  }
+  .gras_texte6_bis {
+    font-size: 5vw;
+    margin-top: 80%;
+    color: #f5483c;
+  }
+  .section6_grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -2%;
+  }
+  .content6 {
+    width: 80%;
+    height: 15vh;
+    margin-bottom: 4%;
+  }
+  .texte_normal_section6 {
+    font-size: 2.8vh;
+  }
+  .texte_normal_section6_2 {
+    font-size: 1.5vh;
+  }
+  .section8 {
+    height: 130vh;
+    scroll-snap-align: start;
+  }
+  .text_section8 {
+    padding-top: 35%;
+    font-size: 7vw;
   }
   .button1 {
     width: 80%;

@@ -877,13 +877,13 @@
   }
   .header {
     width: 100%;
-    padding-top: 30vh;
+    padding-top: 22vh;
   }
   .image_header1 {
-    height: 200px;
+    height: 20vh;
   }
   .image_header2 {
-    height: 200px;
+    height: 20vh;
   }
   .soustitre {
     font-size: 10vw;
@@ -903,25 +903,27 @@
   }
   .texte_gras {
     font-size: 5.2vw;
+    -webkit-text-stroke: 1px;
   }
   .section2_slogan {
     width: 100%;
     padding-top: 30%;
   }
   .slogan {
-    font-size: 5.3vw;
+    font-size: 5vw;
   }
   .slogan2 {
-    font-size: 5.3vw;
+    font-size: 5vw;
   }
   .slogan3 {
-    font-size: 5.3vw;
+    font-size: 5vw;
   }
   .slogan4 {
-    font-size: 5.3vw;
+    font-size: 5vw;
   }
   .gras {
     font-size: 10vw;
+    -webkit-text-stroke: 1px;
   }
   /* section2 */
   .titre2 {
@@ -938,6 +940,7 @@
   }
   .texte_gras_section2 {
     font-size: 5vw;
+    -webkit-text-stroke: 1px;
   }
   .image_section4 {
     margin-left: 7%;
@@ -955,6 +958,10 @@
   }
   .texte_gras_section3 {
     font-size: 5vw;
+    -webkit-text-stroke: 1px;
+  }
+  .content_section4 {
+    padding-top: 20%;
   }
   .soustitre_section4 {
     padding-top: 8%;
@@ -976,11 +983,25 @@
   }
   .titre5 {
     font-size: 14vw;
+    padding-top: 20%;
   }
   .soustitre_section5 {
     font-family: Poppins;
     font-size: 8vw;
     margin-top: 5%;
+    margin-bottom: -5%;
+  }
+  .details {
+    padding-left: 0.8rem;
+  }
+  .details2 {
+    padding-left: 0.8rem;
+  }
+  .details3 {
+    padding-left: 0.8rem;
+  }
+  .details4 {
+    padding-left: 0.8rem;
   }
   .summary {
     font-size: 6vw;
@@ -1011,6 +1032,7 @@
     font-size: 5vw;
     margin-top: 80%;
     margin-bottom: 10%;
+    -webkit-text-stroke: 1px;
   }
   .button1 {
     width: 80%;

@@ -595,7 +595,6 @@
   font-family: Poppins;
   font-size: 3vw;
   text-align: center;
-  color: rgb(237, 207, 89);
   padding-top: 20%;
 }
 .content_section9_bis {
@@ -800,7 +799,7 @@
   }
   .header {
     width: 100%;
-    padding-top: 30vh;
+    padding-top: 25vh;
   }
   .image_header1 {
     height: 200px;
@@ -808,14 +807,19 @@
   .image_header2 {
     height: 200px;
   }
+  .double_ecriture {
+    margin-left: -2vh;
+  }
   .soustitre {
     font-size: 10vw;
     font-family: Poppins;
+    margin-left: 2vh;
   }
   .soustitre2 {
     font-family: Poppins;
     font-size: 10vw;
-    margin-top: -28%;
+    margin-top: -16%;
+    margin-left: 3vh;
   }
   .soustitre3 {
     margin-top: -4vw;
@@ -826,6 +830,10 @@
   }
   .texte_gras {
     font-size: 5.2vw;
+    -webkit-text-stroke: 1px;
+  }
+  .content_fleche {
+    margin-bottom: 20%;
   }
   .section2_slogan {
     width: 100%;
@@ -848,7 +856,7 @@
   }
   /* section2 */
   .titre2 {
-    font-size: 25vw;
+    font-size: 22vw;
   }
   .soustitre_section2 {
     font-size: 10vw;
@@ -861,6 +869,7 @@
   }
   .texte_gras_section2 {
     font-size: 5vw;
+    -webkit-text-stroke: 1px;
   }
   .content3 {
     display: flex;
@@ -876,10 +885,14 @@
   .texte_gras_section3 {
     font-size: 5vw;
   }
+  .content_section4 {
+    padding-top: 20%;
+  }
   .soustitre_section4 {
     padding-top: 8%;
     font-size: 9vw;
     font-family: Poppins;
+    text-align: center;
   }
   .image_section4 {
     display: flex;
@@ -891,40 +904,59 @@
   .titre5 {
     font-size: 14vw;
   }
+  .content_section5 {
+    padding-top: 20%;
+  }
   .soustitre_section5 {
     font-family: Poppins;
     font-size: 8vw;
     margin-top: 5%;
-  }
-  .summary {
-    font-size: 6vw;
-  }
-  .summary_texte {
-    font-size: 5vw;
-  }
-  .summary2 {
-    font-size: 6vw;
-  }
-  .summary_texte2 {
-    font-size: 5vw;
-  }
-  .summary3 {
-    font-size: 6vw;
-  }
-  .summary_texte3 {
-    font-size: 5vw;
-  }
-  .summary4 {
-    font-size: 6vw;
-  }
-  .summary_texte4 {
-    font-size: 5vw;
   }
   .gras_texte9 {
     font-family: Poppins;
     font-size: 5vw;
     margin-top: 80%;
     margin-bottom: 10%;
+    -webkit-text-stroke: 1px;
+  }
+  .section5 {
+    height: 400vh;
+    scroll-snap-align: start;
+  }
+  .soustitre_section5_bis {
+    -webkit-text-stroke: 1.5px;
+    padding-top: 5%;
+    font-size: 6vw;
+  }
+  .card_section5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .card5_1 {
+    width: 80%;
+    height: 30vh;
+  }
+  .card_title h3 {
+    font-size: 5vh;
+  }
+  .card_image2 {
+    margin-top: -50%;
+  }
+  .card_title2 h3 {
+    font-size: 5vh;
+  }
+  .card5_2 {
+    width: 80%;
+    height: 30vh;
+  }
+  .gras_texte9_bis {
+    font-size: 5vw;
+    margin-top: 80%;
+  }
+  .texte9_ateliers {
+    font-size: 4.5vw;
   }
   .button1 {
     width: 80%;
