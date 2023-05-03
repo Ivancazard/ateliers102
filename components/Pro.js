@@ -118,7 +118,7 @@ function Pro() {
                 </div>
               </div>
               <div>
-                <a href="/" className={styles.card}>
+                <a href="/Production" className={styles.card}>
                   <button className={styles.button2}>
                     Découvrez notre atelier de production
                   </button>
@@ -143,7 +143,7 @@ function Pro() {
               </div>
               <div>
                 <a className={styles.card5}>
-                  <button href="/" className={styles.button3}>
+                  <button href="/Personnalisation" className={styles.button3}>
                     Découvrez l'atelier de personnalisation
                   </button>
                 </a>
@@ -164,7 +164,7 @@ function Pro() {
                 Associant le tout pour (re)donner du sens à vos projets
               </div>
               <div>
-                <a href="/" className={styles.card}>
+                <a href="/Entreprise" className={styles.card}>
                   <button className={styles.button1_2}>
                     Découvrez notre entreprise adaptée
                   </button>
@@ -178,7 +178,7 @@ function Pro() {
             <div className={styles.content_section7}>
               En optant pour une expérience à taille humaine alliant passion et
               professionnalisme
-              <a href="/" className={styles.card}>
+              <a href="/Equipe" className={styles.card}>
                 <button className={styles.button2_jaune}>
                   Découvrez notre équipe
                 </button>

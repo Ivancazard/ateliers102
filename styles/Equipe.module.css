@@ -64,12 +64,12 @@
   color: #f5483c;
 }
 .soustitre3 {
-  margin-top: -5vw;
+  margin-top: -10%;
+  margin-bottom: 5%;
   text-align: center;
 }
 
 .texte_normal {
-  margin-bottom: -2vw;
   font-family: Poppins;
   color: #f5483c;
   font-size: 2.2vw;
@@ -515,7 +515,7 @@
   }
   /* section2 */
   .section2 {
-    height: 250vh;
+    height: 300vh;
     scroll-snap-align: start;
   }
   .titre2 {

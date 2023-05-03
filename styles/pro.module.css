@@ -1006,11 +1006,14 @@
     margin-top: -20%;
   }
   .image_regle {
-    margin-top: 190%;
-    width: 600%;
-    margin-left: -200%;
+    margin-top: 150%;
+    width: 430%;
+    margin-left: -150%;
     padding-top: 80%;
     transform: rotate(90deg);
+  }
+  .grid {
+    margin-top: 5%;
   }
   .mesure {
     font-size: 16vw;
@@ -1071,16 +1074,23 @@
 
   .paragraphe_section6 .gras_texte6 {
     font-size: 6vw;
-    -webkit-text-stroke: 1.5px #2176fb;
+    -webkit-text-stroke: 1px #2176fb;
+    margin-top: 2%;
+    margin-bottom: 2%;
   }
   .button1_2 {
     width: 80%;
+    margin-top: 11%;
   }
   .grid {
     display: flex;
     flex-direction: column;
   }
   /* tableau logo */
+  .section8 {
+    height: 120vh;
+    scroll-snap-align: start;
+  }
   .text_section8 {
     padding-top: 35%;
     font-size: 7vw;
@@ -1112,7 +1122,7 @@
     padding: 15%;
   }
   .button2_jaune {
-    margin-top: 20%;
+    margin-top: 30%;
   }
   .content_section9 {
     height: 100%;
@@ -1122,7 +1132,7 @@
     margin: -5%;
   }
   .button3_rouge {
-    margin-top: 10%;
+    margin-top: 20%;
   }
   .gras_texte9 {
     font-size: 7vw;

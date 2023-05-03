@@ -988,6 +988,10 @@
     font-size: 14vw;
     padding-top: 20%;
   }
+  .section5 {
+    height: 250vh;
+    scroll-snap-align: start;
+  }
   .soustitre_section5 {
     font-family: Poppins;
     font-size: 8vw;

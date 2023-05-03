@@ -676,7 +676,7 @@
   }
   /* section2 */
   .section2 {
-    height: 150vh;
+    height: 180vh;
     scroll-snap-align: start;
   }
   .titre2 {
@@ -739,7 +739,7 @@
     scroll-snap-align: start;
   }
   .section5 {
-    height: 130vh;
+    height: 150vh;
     scroll-snap-align: start;
   }
   .content_section5 {
@@ -770,7 +770,7 @@
     font-size: 1.5vh;
   }
   .content_section9 {
-    padding-top: 40%;
+    padding-top: 10%;
   }
   .gras_texte9 {
     font-family: Poppins;
