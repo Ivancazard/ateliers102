@@ -967,8 +967,8 @@
     visibility: hidden;
   }
   .centre_texte3_2 {
-    margin-top: -68vh;
-    margin-bottom: -15vh;
+    margin-top: -33rem;
+    margin-bottom: -10rem;
     visibility: visible;
   }
   .personnalise3 {
@@ -1003,36 +1003,35 @@
     height: 42vh;
   }
   .card {
-    margin-top: -10%;
+    margin-top: -20%;
   }
   .image_regle {
-    margin-top: 25%;
-    width: 500%;
-    padding-right: 20%;
-    padding-top: 350%;
+    margin-top: 190%;
+    width: 600%;
+    margin-left: -200%;
+    padding-top: 80%;
     transform: rotate(90deg);
   }
   .mesure {
     font-size: 16vw;
   }
   .mesure2 {
-    margin-top: -5%;
-    font-size: 4vw;
+    font-size: 3.6vw;
     width: 300px;
   }
   .mesure3 {
-    font-size: 4vw;
-    margin-top: 10%;
+    font-size: 3.6vw;
+
     width: 300px;
   }
   .mesure4 {
-    font-size: 4vw;
-    margin-top: 5%;
+    font-size: 3.6vw;
+
     width: 300px;
   }
   .mesure5 {
-    font-size: 4vw;
-    margin-top: 5%;
+    font-size: 3.6vw;
+
     width: 300px;
   }
   /* impactant */
