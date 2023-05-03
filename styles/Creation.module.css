@@ -894,6 +894,9 @@
     font-size: 10vw;
     margin-top: -28%;
   }
+  .content_fleche {
+    margin-bottom: 40%;
+  }
   .soustitre3 {
     margin-top: -4vw;
   }
@@ -910,16 +913,16 @@
     padding-top: 30%;
   }
   .slogan {
-    font-size: 5vw;
+    width: 100%;
   }
   .slogan2 {
-    font-size: 5vw;
+    width: 100%;
   }
   .slogan3 {
-    font-size: 5vw;
+    width: 100%;
   }
   .slogan4 {
-    font-size: 5vw;
+    width: 100%;
   }
   .gras {
     font-size: 10vw;

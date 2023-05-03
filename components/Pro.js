@@ -179,7 +179,7 @@ function Pro() {
               En optant pour une expérience à taille humaine alliant passion et
               professionnalisme
               <a href="/" className={styles.card}>
-                <button className={styles.button2}>
+                <button className={styles.button2_jaune}>
                   Découvrez notre équipe
                 </button>
               </a>
@@ -278,7 +278,7 @@ function Pro() {
                 Envie de nous confier votre projet?
               </div>
               <a href="/Contact" className={styles.card}>
-                <button className={styles.button3}>
+                <button className={styles.button3_rouge}>
                   Remplir le formulaire de contact
                 </button>
               </a>

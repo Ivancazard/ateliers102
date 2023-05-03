@@ -44,7 +44,7 @@
   text-align: center;
   color: #ff5642;
   font-size: 2.4vw;
-  font-family: Montserrat;
+  font-family: Poppins;
   -webkit-text-stroke: 2px #ff5642;
   margin-top: 1rem;
   letter-spacing: 3px;
@@ -426,6 +426,32 @@
   color: white;
   transform: translateY(-7px);
 }
+.button2_jaune {
+  background-color: #f6bc15;
+  display: inline-block;
+  padding: 0.5em 1.7em;
+  margin: 0 0.1em 0.1em 0;
+  border: none;
+  border-radius: 2em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 300;
+  color: #ffffff;
+  text-shadow: 0 0.04em 0.04em rgba(255, 255, 255, 0.253);
+  text-align: center;
+  transition: all 0.2s;
+  cursor: url(../public/stylo-plume.png), default;
+  margin-top: 2rem;
+}
+.button2_jaune:hover {
+  background-color: #f6bc15;
+  opacity: 60%;
+  box-shadow: 0px 15px 20px rgba(187, 34, 34, 0.275);
+  color: white;
+  transform: translateY(-7px);
+}
 .section5 {
   display: block;
   width: 100%;
@@ -438,7 +464,7 @@
   justify-content: center;
   align-items: center;
   margin: auto;
-  padding: 15%;
+  padding: 12%;
   width: 100%;
 }
 .paragraphe_section5 {
@@ -517,6 +543,31 @@
   color: white;
   transform: translateY(-7px);
 }
+.button3_rouge {
+  background-color: #ff5642;
+  display: inline-block;
+  padding: 0.5em 1.7em;
+  margin: 0 0.1em 0.1em 0;
+  border: none;
+  border-radius: 2em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 300;
+  color: #ffffff;
+  text-shadow: 0 0.04em 0.04em rgba(255, 255, 255, 0.253);
+  text-align: center;
+  transition: all 0.2s;
+  cursor: url(../public/stylo-plume.png), default;
+}
+.button3_rouge:hover {
+  background-color: #ff5642;
+  opacity: 60%;
+  box-shadow: 0px 15px 20px rgba(187, 34, 34, 0.275);
+  color: white;
+  transform: translateY(-7px);
+}
 .section6 {
   display: block;
   width: 100%;
@@ -535,7 +586,7 @@
 .paragraphe_section6 {
   margin-left: 12rem;
   margin-right: 12rem;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   font-family: Poppins;
   font-size: 1.8rem;
   text-align: center;
@@ -890,6 +941,9 @@
     width: 100%;
     padding-top: 25%;
   }
+  .content_fleche {
+    margin-top: 30%;
+  }
   .slogan {
     font-size: 5vw;
   }
@@ -906,7 +960,7 @@
     font-size: 10vw;
   }
   .section3 {
-    padding-top: 40%;
+    padding-top: 30%;
     align-items: center;
   }
   .centre_texte3 {
@@ -935,7 +989,7 @@
     margin-top: -10%;
   }
   .card3 {
-    margin-top: 50%;
+    margin-top: 40%;
   }
   /* sur-mesure */
   .content_section4 {
@@ -948,7 +1002,9 @@
     width: auto;
     height: 42vh;
   }
-
+  .card {
+    margin-top: -10%;
+  }
   .image_regle {
     margin-top: 25%;
     width: 500%;
@@ -1054,13 +1110,20 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 15%;
   }
-
+  .button2_jaune {
+    margin-top: 20%;
+  }
   .content_section9 {
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: -5%;
+  }
+  .button3_rouge {
+    margin-top: 10%;
   }
   .gras_texte9 {
     font-size: 7vw;

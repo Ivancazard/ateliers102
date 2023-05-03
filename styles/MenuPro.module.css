@@ -151,7 +151,7 @@
   transition-delay: 50ms;
 }
 .nav ul li a {
-  font-family: "poppins";
+  font-family: poppins;
   font-size: 8vh;
   text-transform: uppercase;
   line-height: 1.2;
@@ -378,7 +378,7 @@
 }
 /* taille de la police menu */
 .nav ul li a {
-  font-family: "Montserrat";
+  font-family: Poppins-Bold;
   font-size: 3vh;
   text-transform: uppercase;
   line-height: 1.2;
@@ -447,6 +447,8 @@
   .texte_info2 {
     visibility: visible;
     font-size: 16px;
+    margin-top: -30%;
+    margin-bottom: 8%;
   }
   .texte {
     font-size: 14px;
