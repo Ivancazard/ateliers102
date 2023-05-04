@@ -131,6 +131,9 @@
   max-width: 100%;
   cursor: url(../public/stylo-plume.png), default;
 }
+.menuicon {
+  visibility: hidden;
+}
 /* cacher le content info quand on clique sur hamburger : hidden*/
 .nav ul .content_info {
   opacity: 0;

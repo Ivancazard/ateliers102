@@ -12,14 +12,13 @@ function MenuParticulier() {
         alt="logo-bleu"
         onClick={() => router.push("/")}
       />
-
       <input
         className={styles.menuicon}
         type="checkbox"
         id="menu-icon"
         name="menu-icon"
       />
-      <label className={styles.menuicon} for="menu-icon"></label>
+      <label for="menu-icon"></label>
       <nav className={styles.nav}>
         <ul className={styles.ul}>
           <div className={styles.content_info}>
@@ -77,7 +76,7 @@ function MenuParticulier() {
             </div>
           </div>
 
-          <li>
+          <li className={styles.li}>
             <a href="/Production">Production</a>
           </li>
           <li>

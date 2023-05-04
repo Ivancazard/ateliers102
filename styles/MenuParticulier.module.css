@@ -44,12 +44,14 @@
   margin-top: 3rem;
   cursor: pointer;
 }
-
+.menuicon {
+  visibility: hidden;
+}
 .menuicon:checked + label,
 .menuicon:not(:checked) + label {
   position: fixed;
-  top: 63px;
-  right: 75px;
+  top: 43px;
+  right: 40px;
   display: block;
   width: 30px;
   height: 30px;
@@ -113,8 +115,8 @@
 
 .nav {
   position: fixed;
-  top: 33px;
-  right: 50px;
+  top: 14px;
+  right: 20px;
   display: block;
   width: 80px;
   height: 80px;
@@ -219,7 +221,7 @@
   transition-delay: 50ms;
 }
 .nav ul li a {
-  font-family: "Montserrat", sans-serif;
+  font-family: poppins;
   font-size: 8vh;
   text-transform: uppercase;
   line-height: 1.2;
@@ -228,6 +230,7 @@
   position: relative;
   color: #ececee;
   transition: all 250ms linear;
+  text-decoration: none;
 }
 .nav ul li a:hover {
   text-decoration: none;
@@ -288,8 +291,8 @@
 .menuicon:checked + label,
 .menuicon:not(:checked) + label {
   position: fixed;
-  top: 63px;
-  right: 75px;
+  top: 43px;
+  right: 40px;
   display: block;
   width: 30px;
   height: 30px;
@@ -357,8 +360,8 @@
 
 .nav {
   position: fixed;
-  top: 33px;
-  right: 50px;
+  top: 14px;
+  right: 20px;
   display: block;
   width: 80px;
   height: 80px;

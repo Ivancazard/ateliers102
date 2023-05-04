@@ -19,11 +19,10 @@
   width: 100%;
   height: 100vh;
   display: flex;
-  position: relative;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  z-index: 1;
+  position: relative;
   scroll-snap-align: start;
 }
 .header_dessin {
@@ -912,18 +911,7 @@
     width: 100%;
     padding-top: 30%;
   }
-  .slogan {
-    width: 100%;
-  }
-  .slogan2 {
-    width: 100%;
-  }
-  .slogan3 {
-    width: 100%;
-  }
-  .slogan4 {
-    width: 100%;
-  }
+
   .gras {
     font-size: 10vw;
     -webkit-text-stroke: 1px;

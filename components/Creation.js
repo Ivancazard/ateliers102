@@ -4,7 +4,6 @@ import { useState } from "react";
 function Creation() {
   return (
     <div className={styles.container}>
-      {/* <a href="#top" className={styles.returnButton}></a> */}
       <div className={styles.wrap}>
         <div className={styles.header}>
           <div className={styles.header_dessin}>

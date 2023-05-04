@@ -30,7 +30,6 @@
   justify-content: space-between;
   padding-left: 5%;
   padding-right: 5%;
-  margin-top: 10%;
 }
 .image_header1 {
   height: 400px;
@@ -42,7 +41,7 @@
   display: block;
   position: absolute;
   flex-direction: column;
-  margin-top: 15%;
+  margin-top: 10%;
   margin-left: 20%;
 }
 .soustitre {
@@ -69,12 +68,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  z-index: 1;
+  z-index: -1;
   scroll-snap-align: start;
 }
 /* spinner */
 .loader {
-  z-index: -1;
+  z-index: -2;
   position: absolute;
   top: 50%;
   left: 50%;

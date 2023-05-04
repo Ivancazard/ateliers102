@@ -19,11 +19,10 @@
   width: 100%;
   height: 100vh;
   display: flex;
-  position: relative;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  z-index: 1;
+  position: relative;
   scroll-snap-align: start;
 }
 .header_dessin {
@@ -61,7 +60,7 @@
   color: #f5483c;
 }
 .soustitre3 {
-  margin-top: -5vw;
+  margin-top: -8vw;
   text-align: center;
 }
 
@@ -661,18 +660,6 @@
   .section2_slogan {
     width: 100%;
     padding-top: 30%;
-  }
-  .slogan {
-    font-size: 5vw;
-  }
-  .slogan2 {
-    font-size: 5vw;
-  }
-  .slogan3 {
-    font-size: 5vw;
-  }
-  .slogan4 {
-    font-size: 5vw;
   }
   .gras {
     font-size: 10vw;
