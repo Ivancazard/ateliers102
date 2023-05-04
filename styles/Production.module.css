@@ -794,7 +794,7 @@
     padding-top: 20%;
   }
   .card_section4 {
-    padding-top: 30%;
+    padding-top: 15%;
   }
   .soustitre_section4 {
     padding-top: 8%;
@@ -809,6 +809,7 @@
     width: 90%;
     overflow: auto;
     scroll-snap-type: x mandatory;
+    border-radius: 10%;
   }
   .image {
     flex-shrink: 0;

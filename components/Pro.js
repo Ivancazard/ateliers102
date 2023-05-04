@@ -142,8 +142,8 @@ function Pro() {
                 </div>
               </div>
               <div>
-                <a className={styles.card5}>
-                  <button href="/Personnalisation" className={styles.button3}>
+                <a href="/Personnalisation" className={styles.card5}>
+                  <button className={styles.button3}>
                     Découvrez l'atelier de personnalisation
                   </button>
                 </a>

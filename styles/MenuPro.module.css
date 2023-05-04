@@ -91,6 +91,7 @@
   background-color: transparent;
 }
 .buttonMail {
+  cursor: pointer;
   margin-right: 5%;
   height: 10vh;
   width: 10vh;
@@ -100,6 +101,7 @@
   box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
 }
 .buttonPlan {
+  cursor: pointer;
   margin-left: 15%;
   margin-right: 5%;
   height: 10vh;
@@ -110,6 +112,7 @@
   box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
 }
 .buttonTel {
+  cursor: pointer;
   height: 10vh;
   width: 10vh;
   border-radius: 50%;

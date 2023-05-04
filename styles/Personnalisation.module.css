@@ -369,7 +369,7 @@
 }
 .titre5 {
   font-family: NewakeFont-Demo;
-  font-size: 7rem;
+  font-size: 6.9rem;
   text-align: center;
   color: white;
   -webkit-text-stroke: 3.5px #487be0;
@@ -386,6 +386,8 @@
 }
 .content_section5 {
   margin-bottom: 10%;
+  margin-right: 2%;
+  margin-left: 2%;
 }
 .section8 {
   display: block;
@@ -718,7 +720,7 @@
     padding-top: 20%;
   }
   .card_section4 {
-    padding-top: 30%;
+    padding-top: 15%;
   }
   .soustitre_section4 {
     padding-top: 8%;
@@ -733,6 +735,7 @@
     width: 90%;
     overflow: auto;
     scroll-snap-type: x mandatory;
+    border-radius: 10%;
   }
   .image {
     flex-shrink: 0;

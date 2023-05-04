@@ -833,7 +833,7 @@
     -webkit-text-stroke: 1px;
   }
   .content_fleche {
-    margin-bottom: 20%;
+    margin-bottom: 25%;
   }
   .section2_slogan {
     width: 100%;
@@ -900,6 +900,9 @@
     justify-content: space-between;
     align-items: center;
     width: 90%;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+    border-radius: 10%;
   }
   .titre5 {
     font-size: 14vw;

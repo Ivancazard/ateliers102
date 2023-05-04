@@ -32,7 +32,7 @@
   justify-content: space-between;
   padding-left: 5%;
   padding-right: 5%;
-  margin-top: 10%;
+  margin-top: -3%;
 }
 .image_header1 {
   height: 400px;
@@ -96,7 +96,7 @@
   justify-content: center;
   width: 25px;
   height: 15px;
-  margin-left: 50%;
+  margin-left: 45%;
   cursor: pointer;
 }
 .content_fleche {
@@ -498,18 +498,7 @@
     width: 100%;
     padding-top: 30%;
   }
-  .slogan {
-    font-size: 5vw;
-  }
-  .slogan2 {
-    font-size: 5vw;
-  }
-  .slogan3 {
-    font-size: 5vw;
-  }
-  .slogan4 {
-    font-size: 5vw;
-  }
+
   .gras {
     font-size: 10vw;
   }

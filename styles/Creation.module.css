@@ -955,6 +955,9 @@
     flex-direction: column;
     width: 92%;
   }
+  .image_section3 {
+    margin-left: -0%;
+  }
   .texte_normal_section3 {
     font-size: 5vw;
     width: 90%;
@@ -979,6 +982,7 @@
     width: 90%;
     overflow: auto;
     scroll-snap-type: x mandatory;
+    border-radius: 10%;
   }
   .image {
     flex-shrink: 0;

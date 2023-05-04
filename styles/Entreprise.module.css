@@ -32,7 +32,7 @@
   justify-content: space-between;
   padding-left: 5%;
   padding-right: 5%;
-  margin-top: 10%;
+  margin-top: 12%;
 }
 .image_header1 {
   height: 400px;
@@ -625,6 +625,9 @@
     width: 100%;
     padding-top: 25vh;
   }
+  .header_dessin {
+    margin-top: -5%;
+  }
   .image_header1 {
     height: 200px;
   }
@@ -680,7 +683,7 @@
     scroll-snap-align: start;
   }
   .titre2 {
-    font-size: 25vw;
+    font-size: 20vw;
   }
   .image_parralex {
     height: 50vh;

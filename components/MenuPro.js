@@ -39,6 +39,8 @@ function MenuPro() {
                   <button className={styles.buttonPlan}>
                     <EnvironmentOutlined
                       style={{ fontSize: "40px", color: "#ff5642" }}
+
+                      //   href = "http://u.osmfr.org/m/884254/"
                     />
                   </button>
                   <button className={styles.buttonMail}>
