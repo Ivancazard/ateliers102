@@ -19,10 +19,10 @@
   width: 100%;
   height: 100vh;
   display: flex;
-  position: relative;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
   scroll-snap-align: start;
 }
 .header_dessin {
@@ -31,7 +31,8 @@
   justify-content: space-between;
   padding-left: 5%;
   padding-right: 5%;
-  margin-top: -3%;
+  margin-top: 12%;
+  background-color: #487be0;
 }
 .image_header1 {
   height: 400px;
