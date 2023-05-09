@@ -205,7 +205,7 @@
   font-family: Poppins;
   font-size: 1.8rem;
   text-align: center;
-  color: #487be0;
+  color: #2176fb;
 }
 
 .gras {
@@ -844,7 +844,7 @@
 }
 
 .footer_content2 {
-  background-color: #f5483c;
+  background-color: #2176fb;
   position: relative;
   display: flex;
   flex-direction: row;
@@ -853,7 +853,7 @@
   max-width: 100%;
 }
 .footer_content3 {
-  background-color: #f5483c;
+  background-color: #2176fb;
   position: relative;
   display: flex;
   flex-direction: row;
@@ -862,7 +862,7 @@
   max-width: 100%;
 }
 .footer_content4 {
-  background-color: #f5483c;
+  background-color: #2176fb;
   position: relative;
   display: flex;
   flex-direction: row;
