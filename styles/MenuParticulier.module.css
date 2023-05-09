@@ -11,7 +11,7 @@
   width: 380px;
   margin: auto;
   padding: 30px 10px 30px 10px;
-  background: #565fbc;
+  background: #2176fb;
   box-sizing: border-box;
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
   border-radius: 10px;
@@ -125,7 +125,7 @@
   z-index: 9;
   overflow: hidden;
   box-shadow: 0 8px 30px 0 rgba(0, 0, 0, 0.3);
-  background-color: #303dc8;
+  background-color: #2176fb;
   animation: border-transform 7s linear infinite;
   transition: top 350ms 1100ms cubic-bezier(0.23, 1, 0.32, 1),
     right 350ms 1100ms cubic-bezier(0.23, 1, 0.32, 1),
@@ -234,7 +234,7 @@
 }
 .nav ul li a:hover {
   text-decoration: none;
-  color: #393bb6;
+  color: #2176fb;
 }
 
 .nav ul li a:hover:after {
@@ -370,7 +370,7 @@
   z-index: 9;
   overflow: hidden;
   box-shadow: 0 8px 30px 0 rgba(0, 0, 0, 0.3);
-  background-color: #303dc8;
+  background-color: #2176fb;
   animation: border-transform 7s linear infinite;
   transition: top 350ms 1100ms cubic-bezier(0.23, 1, 0.32, 1),
     right 350ms 1100ms cubic-bezier(0.23, 1, 0.32, 1),
