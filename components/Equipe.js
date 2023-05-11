@@ -76,12 +76,25 @@ function Equipe() {
                   />
                   <div className={styles.profile_equipe}>
                     <div className={styles.name_equipe}>
-                      Ivan<p>Cazard</p>
+                      Flora<p>FONTMARTY</p>
                     </div>
                     <div className={styles.text_equipe}>
-                      Lorem ipsum, or lipsum as it is sometimes known, is dummy
-                      text
+                      Directrice d'Agence
                     </div>
+                  </div>
+                </div>
+              </div>
+              <div className={styles.col_equipe}>
+                <div className={styles.profile_card}>
+                  <img
+                    src="image_employeur.png"
+                    className={styles.img_equipe}
+                  />
+                  <div className={styles.profile_equipe}>
+                    <div className={styles.name_equipe}>
+                      Maëlle<p>DIVET</p>
+                    </div>
+                    <div className={styles.text_equipe}>PAO Infographiste</div>
                   </div>
                 </div>
               </div>
@@ -96,25 +109,7 @@ function Equipe() {
                       Ivan<p>Cazard</p>
                     </div>
                     <div className={styles.text_equipe}>
-                      Lorem ipsum, or lipsum as it is sometimes known, is dummy
-                      text
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className={styles.col_equipe}>
-                <div className={styles.profile_card}>
-                  <img
-                    src="image_employeur.png"
-                    className={styles.img_equipe}
-                  />
-                  <div className={styles.profile_equipe}>
-                    <div className={styles.name_equipe}>
-                      Ivan<p>Cazard</p>
-                    </div>
-                    <div className={styles.text_equipe}>
-                      Lorem ipsum, or lipsum as it is sometimes known, is dummy
-                      text
+                      Full-stack developper
                     </div>
                   </div>
                 </div>

@@ -2,22 +2,9 @@ import styles from "../styles/pro.module.css";
 import React from "react";
 import { useState } from "react";
 
-// document.addEventListener("DOMContentLoaded", () => {
-//   const oLien = document.querySelector("nav.gotoTop a");
-//   if (oLien) {
-//     window.addEventListener("scroll", () => {
-
-//       const minScroll = window.innerHeight;
-
-//       const action = window.pageYOffset > minScroll ? "add" : "remove";
-//       oLien.classList[action]("visible");
-//     });
-//   }
-// });
-
 function Pro() {
   return (
-    <div id="#top" className={styles.container}>
+    <div className={styles.container}>
       <div className={styles.wrap}>
         <div className={styles.header}>
           <div className={styles.soustitre}>Bienvenue dans nos</div>
@@ -31,13 +18,14 @@ function Pro() {
           <div className={styles.soustitre2}>Entreprise adaptée</div>
           <div className={styles.content_fleche}>
             <div className={styles.texte_fleche}>C'est parti !</div>
-            <img
+            {/* <img
               className={styles.fleche}
               src="button-bas.png"
               alt="button-bas"
-              data-bs-target="#section2"
-              data-bs-toggle="section2"
-            />
+            /> */}
+            <a href="#section2">
+              <div className={styles.scroll_down_arrow}></div>
+            </a>
           </div>
         </div>
         <div>
@@ -432,9 +420,6 @@ function Pro() {
           </div>
         </div>
       </div>
-      <nav className={styles.gotoTop}>
-        {/* <a href="#top" className={styles.returnButton}></a> */}
-      </nav>
     </div>
   );
 }
