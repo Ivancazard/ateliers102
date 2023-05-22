@@ -18,11 +18,6 @@ function Pro() {
           <div className={styles.soustitre2}>Entreprise adaptée</div>
           <div className={styles.content_fleche}>
             <div className={styles.texte_fleche}>C'est parti !</div>
-            {/* <img
-              className={styles.fleche}
-              src="button-bas.png"
-              alt="button-bas"
-            /> */}
             <a href="#section2">
               <div className={styles.scroll_down_arrow}></div>
             </a>

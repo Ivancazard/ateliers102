@@ -39,14 +39,12 @@ function Equipe() {
             <div className={styles.texte_fleche}>
               Découvrez tout ce qu'il faut savoir sur notre atelier protégé
             </div>
-            <img
-              className={styles.fleche}
-              src="button-bas.png"
-              alt="button-bas"
-            />
+            <a href="#section2">
+              <div className={styles.scroll_down_arrow}></div>
+            </a>
           </div>
         </div>
-        <div className={styles.section2}>
+        <div className={styles.section2} id="section2">
           <div className={styles.section2_slogan}>
             <div className={styles.slogan}>
               Ensemble encrons votre communication
