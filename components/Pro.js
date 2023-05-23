@@ -6,7 +6,7 @@ function Pro() {
   return (
     <div className={styles.container}>
       <div className={styles.wrap}>
-        <div className={styles.header}>
+        <div className={styles.header} id="header">
           <div className={styles.soustitre}>Bienvenue dans nos</div>
           <div className={styles.content_logo}>
             <img
@@ -26,6 +26,9 @@ function Pro() {
         <div>
           <div className={styles.section2} id="section2">
             <div className={styles.section2_slogan}>
+              <a href="#header">
+                <div className={styles.scroll_down_arrow2}></div>
+              </a>
               <div className={styles.slogan}>
                 Ensemble encrons votre communication
               </div>
