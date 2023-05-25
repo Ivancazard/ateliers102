@@ -129,7 +129,7 @@
   height: 60px;
   width: auto;
   max-width: 100%;
-  cursor: url(../public/stylo-plume.png), default;
+  cursor: pointer;
 }
 .menuicon {
   visibility: hidden;

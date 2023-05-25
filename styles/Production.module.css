@@ -19,7 +19,6 @@
   width: 100%;
   height: 100vh;
   display: flex;
-  position: relative;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -43,7 +42,6 @@
 }
 .double_ecriture {
   display: block;
-  position: absolute;
   flex-direction: column;
   margin-top: 12%;
 }
@@ -52,15 +50,15 @@
   font-size: 6.4vw;
   color: white;
   -webkit-text-stroke: 2px #f5483c;
-  margin-bottom: -6.5vw;
-  margin-left: 10.5vw;
+  margin-bottom: -12.8vw;
+  margin-left: 5vw;
   text-align: center;
 }
 .soustitre2 {
   text-align: center;
   font-family: NewakeFont-Demo;
   font-size: 6.4vw;
-  margin-left: 10vw;
+  margin-left: 5vw;
   color: #f5483c;
 }
 .soustitre3 {

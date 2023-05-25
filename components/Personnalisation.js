@@ -8,6 +8,11 @@ function Personnalisation() {
       <div className={styles.wrap}>
         <div className={styles.header}>
           <div className={styles.header_dessin}>
+            <img
+              className={styles.image_header1}
+              src="header2-1.png"
+              alt="dessin"
+            />
             <div className={styles.double_ecriture}>
               <div className={styles.soustitre}>
                 Notre atelier de personnalisation
@@ -16,11 +21,6 @@ function Personnalisation() {
                 Notre atelier de personnalisation
               </div>
             </div>
-            <img
-              className={styles.image_header1}
-              src="header2-1.png"
-              alt="dessin"
-            />
             <img
               className={styles.image_header2}
               src="header2-2.png"
