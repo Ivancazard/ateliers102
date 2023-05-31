@@ -718,9 +718,11 @@
   }
   .image_header2 {
     height: 200px;
+    margin-left: -13vw;
+    padding-bottom: 5vw;
   }
   .double_ecriture {
-    margin-left: -2vh;
+    margin-left: -8vh;
   }
   .soustitre {
     font-size: 10vw;
@@ -730,7 +732,7 @@
   .soustitre2 {
     font-family: Poppins;
     font-size: 10vw;
-    margin-top: -26%;
+    margin-top: -68%;
     margin-left: 3vh;
   }
   .soustitre3 {

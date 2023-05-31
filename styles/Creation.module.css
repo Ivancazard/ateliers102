@@ -897,14 +897,19 @@
   .image_header2 {
     height: 20vh;
   }
+  .double_ecriture {
+    margin-left: -2vh;
+  }
   .soustitre {
     font-size: 10vw;
     font-family: Poppins;
+    margin-left: 2vh;
+    margin-bottom: -52.8vw;
   }
   .soustitre2 {
     font-family: Poppins;
     font-size: 10vw;
-    margin-top: -28%;
+    margin-left: 3vh;
   }
   .content_fleche {
     margin-bottom: 40%;

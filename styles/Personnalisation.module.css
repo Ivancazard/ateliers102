@@ -642,18 +642,23 @@
   }
   .image_header1 {
     height: 200px;
+    padding-top: 15vw;
   }
   .image_header2 {
     height: 200px;
+    margin-left: -35vw;
+  }
+  .double_ecriture {
+    margin-left: -12vh;
   }
   .soustitre {
     font-size: 10vw;
     font-family: Poppins;
+    margin-bottom: -26.8vw;
   }
   .soustitre2 {
     font-family: Poppins;
     font-size: 10vw;
-    margin-top: -28%;
   }
   .soustitre3 {
     margin-top: -4vw;

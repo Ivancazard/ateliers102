@@ -643,9 +643,11 @@
   }
   .image_header1 {
     height: 200px;
+    padding-top: 15vw;
   }
   .image_header2 {
     height: 200px;
+    padding-top: 15vw;
   }
   .soustitre {
     font-size: 10vw;
@@ -654,7 +656,7 @@
   .soustitre2 {
     font-family: Poppins;
     font-size: 10vw;
-    margin-top: -28%;
+    margin-top: -73%;
   }
   .soustitre3 {
     margin-top: -4vw;
